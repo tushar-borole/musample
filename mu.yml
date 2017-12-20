@@ -16,4 +16,5 @@ service:
     - /*
   pipeline:
     source:
-      repo: cplee/aftp-mu
+      provider: S3
+      repo: mu-pipeline/frontend/prod/latest.zip
