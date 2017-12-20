@@ -16,5 +16,5 @@ service:
     - /*
   pipeline:
     source:
-      provider: S3
-      repo: mu-pipeline/frontend/prod/latest.zip
+      provider: GitHub
+      repo: tushariscoolster/musample
