@@ -4,9 +4,11 @@ environments:
   - name: acceptance
     cluster:
       maxSize: 2
+      instanceType: t2.medium
   - name: production
     cluster:
       maxSize: 2
+      instanceType: t2.medium
 
 service:
   name: basic-example
