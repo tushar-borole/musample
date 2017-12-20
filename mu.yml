@@ -1,5 +1,4 @@
----
-
+namespace: mu-example
 environments:
   - name: acceptance
     cluster:
@@ -11,7 +10,7 @@ environments:
       instanceType: t2.medium
 
 service:
-  name: basic-example
+  name: mu-pipeline
   healthEndpoint: /
   port: 80
   pathPatterns:
