@@ -6,7 +6,7 @@ environments:
       maxSize: 2
   - name: production
     cluster:
-      maxSize: 5
+      maxSize: 2
 
 service:
   name: basic-example
