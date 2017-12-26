@@ -15,7 +15,10 @@ service:
   port: 80
   pathPatterns:
     - /*
+  environment:
+    NODE_ENV: edge
   pipeline:
     source:
       provider: GitHub
-      repo: tushariscoolster/musample
+      repo: KQED/radio-schedule-service
+      branch: production-setup
