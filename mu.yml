@@ -1,4 +1,4 @@
-namespace: mu
+namespace: mutest
 environments:
   - name: acceptance
     cluster:
