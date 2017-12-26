@@ -1,16 +1,16 @@
-namespace: mutest
+namespace: muapp
 environments:
   - name: acceptance
     cluster:
       maxSize: 2
-      instanceType: t2.medium
-  - name: production
+      instanceType:
+  - name: productiont2.medium
     cluster:
       maxSize: 2
       instanceType: t2.medium
 
 service:
-  name: mu-p
+  name: muservice
   healthEndpoint: /
   port: 80
   pathPatterns:
